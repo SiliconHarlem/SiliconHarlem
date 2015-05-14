@@ -5,7 +5,7 @@
 				<div id="inner-content" class="row">
 			
 					<div id="main" class="large-8 medium-8 columns first" role="main">
-					
+						<div class="inner-padding" >					
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
 					    	<?php get_template_part( 'partials/loop', 'single' ); ?>
@@ -15,7 +15,7 @@
 					   		<?php get_template_part( 'partials/content', 'missing' ); ?>
 
 					    <?php endif; ?>
-			
+						</div>
 					</div> <!-- end #main -->
     
 					<?php get_sidebar(); ?>

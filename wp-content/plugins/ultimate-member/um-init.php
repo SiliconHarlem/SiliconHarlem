@@ -24,6 +24,8 @@ class UM_API {
 			'de_DE'	=> 'Deutsch',
 			'nl_NL' => 'Nederlands',
 			'fi_FI' => 'Suomi',
+			'da_DK' => 'Dansk',
+			'sv_SE' => 'Svenska',
 			'pl_PL' => 'Polski',
 			'ru_RU' => 'Русский',
 			'tr_TR' => 'Türkçe',
@@ -169,7 +171,7 @@ class UM_API {
 		$this->options = get_option('um_options');
 		
 		$domain = 'ultimatemember';
-		$locale = get_option('WPLANG');
+		$locale = ( get_option('WPLANG') ) ? get_option('WPLANG') : 'en_US';
 		load_textdomain($domain, WP_LANG_DIR . '/plugins/' .$domain.'-'.$locale.'.mo');
 		
 	}

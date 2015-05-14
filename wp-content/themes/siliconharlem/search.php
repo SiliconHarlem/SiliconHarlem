@@ -5,6 +5,8 @@
 				<div id="inner-content" class="row">
 			
 					<div id="main" class="large-8 medium-8 columns first" role="main">
+						<div class="inner-padding" >				
+
 						<h1 class="archive-title"><span><?php _e('Search Results for:', 'jointstheme'); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -49,7 +51,7 @@
     					    </article>
 					
 					    <?php endif; ?>
-			
+						</div>
 				    </div> <!-- end #main -->
     			
     			    <?php get_sidebar(); ?>

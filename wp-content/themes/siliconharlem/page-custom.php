@@ -9,11 +9,12 @@ Template Name: Custom Page Example
 			<div id="content">
 			
 				<div id="inner-content" class="row">
-			
-				    <div id="main" class="large-8 medium-8 columns first" role="main">
 					
+				    <div id="main" class="large-8 medium-8 columns first" role="main">
+													<div class="inner-padding" >
+
 					    <?php get_template_part( 'partials/loop', 'page' ); ?>
-					    						
+					    					</div>			
 				    </div> <!-- end #main -->
     
 				    <?php get_sidebar(); ?>

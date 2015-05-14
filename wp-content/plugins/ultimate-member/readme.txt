@@ -5,9 +5,9 @@ Contributors: ultimatemember
 Donate link: 
 Tags: access control, author, authors, author profile, comments, community, communities, conditional fields, conditional logic, conditional menus, content protection, custom fields, file uploads, form builder, front-end login, front-end registration, gravatar, hide wp-admin, login, login page, logged-in users, mandrill, member, members, membership, member directory, online users, profile, profiles, profile builder, registration, restriction, restrict content, role creation, role menus, search filters, sign in, sign up, social network, star ratings, toolbar, user, users, user fields, user profile, user-profile, user profiles, user roles
 Requires at least: 4.1
-Tested up to: 4.2.1
+Tested up to: 4.2.2
 
-Stable Tag: 1.2.92
+Stable Tag: 1.2.97
 
 License: GNU Version 2 or Any Later Version
 
@@ -45,6 +45,7 @@ Read about all of the plugin's features at [Ultimate Member](https://ultimatemem
 
 Ultimate Member has a range of extensions that allow you to extend the power of the plugin
 
+* [Private Messages](https://ultimatemember.com/extensions/private-messages/) - Add a private messaging system to your site & allow users to message each other
 * [Followers](https://ultimatemember.com/extensions/followers/) - Allow users to follow each other on your site and protect their profile information
 * [Real-time Notifications](https://ultimatemember.com/extensions/real-time-notifications/) - Add a notifications system to your site so users can receive real-time notifications
 * [Social Login](https://ultimatemember.com/extensions/social-login/) - Let users register & login to your site via Facebook, Twitter, G+, LinkedIn, Instagram and Vkontakte (VK.com)
@@ -79,6 +80,8 @@ Ultimate Member has been translated into the following languages:
 * German - Deutsch
 * Dutch - Nederlands
 * Finnish - Suomi
+* Danish - Dansk
+* Swedish - Svenska
 * Polish - Polski
 * Russian - Русский
 * Turkish - Türkçe
@@ -140,6 +143,43 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
 16. Screenshot 16
 
 == Changelog ==
+
+= 1.2.97: May 13, 2015 =
+
+* Fixed: issue with image upload fields
+* Fixed: date localization resolved
+* Fixed: issue with image upload during registration
+* Fixed: JS issues for PM extension
+
+= 1.2.96: May 12, 2015 =
+
+* New: hooks and compatibility with Private Messages extension
+* Fixed: bug with empty password on welcome e-mail
+* Fixed: bug with member search using default permalinks
+
+= 1.2.95: May 9, 2015 =
+
+* New: RESTful API methods update.user, get.stats, and delete.user
+* New: added Danish (Dansk) support
+* New: added Swedish (Svenska) support
+* Tweak: minor account and logout redirection tweaks
+* Fixed: issue with changing user role
+* Fixed: bug with login form validation
+* Fixed: issue with biography field and html
+
+= 1.2.94: May 6, 2015 =
+
+* Fixed: bug with activation e-mails
+* Fixed: bug stopping password reset
+* Fixed: bug with changing user role and status in backend
+
+= 1.2.93: May 5, 2015 =
+
+* New: user profiles are cached to speed up load time
+* New: emoji support added to bio / user descriptions
+* Fixed: issues with bio field HTML 
+* Fixed: WP-admin PHP warning
+* Fixed: bug with localization of en_US.po file
 
 = 1.2.92: May 2, 2015 =
 

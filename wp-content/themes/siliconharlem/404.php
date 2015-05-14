@@ -4,8 +4,8 @@
 
 				<div id="inner-content" class="row">
 			
-					<div id="main" class="large-8 medium-8 columns" role="main">
-
+				    <div id="main" class="large-12 medium-12 columns" role="main">
+						<div class="inner-padding" >
 						<article id="content-not-found">
 						
 							<header class="article-header">
@@ -21,7 +21,7 @@
 							</section> <!-- end search section -->
 					
 						</article> <!-- end article -->
-			
+						</div>
 					</div> <!-- end #main -->
 
 				</div> <!-- end #inner-content -->

@@ -4,8 +4,8 @@
 			
 				<div id="inner-content" class="row clearfix">
 					
-				    <div id="main" class="large-8 medium-8 columns first clearfix" role="main">
-				
+				    <div id="main" class="large-12 medium-12 columns" role="main">
+						<div class="inner-padding" >				
 						<h1 class="page-title"><?php post_type_archive_title(); ?></h1>
 						<dl class="accordion" data-accordion>
 
@@ -38,7 +38,7 @@
                 <?php get_template_part( 'partials/missing', 'content' ); ?>
 					
 					    <?php endif; ?>
-			
+						</div>
     				</div> <!-- end #main -->
     				
     				<?php get_sidebar(); ?>

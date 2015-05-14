@@ -196,8 +196,8 @@
 			}
 			
 			if ( isset( $array['html'] ) && $array['html'] == 0 ) {
-				if ( $args[$key] != htmlspecialchars($args[$key]) ) {
-				$ultimatemember->form->add_error($key, __('You can not use HTML tags here','ultimatemember') );
+				if ( wp_strip_all_tags( $args[$key] ) != $args[$key] ) {
+					$ultimatemember->form->add_error($key, __('You can not use HTML tags here','ultimatemember') );
 				}
 			}
 			

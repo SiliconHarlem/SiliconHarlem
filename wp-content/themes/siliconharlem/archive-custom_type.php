@@ -5,10 +5,11 @@
 				<div id="inner-content" class="row">
 			
 				    <div id="main" class="large-8 medium-8 columns" role="main">
-						
+												<div class="inner-padding" >
+
 						<!-- To see additional archive styles, visit the /partials directory -->
 					    <?php get_template_part( 'partials/loop', 'archive' ); ?>
-								
+									</div>
 				    </div> <!-- end #main -->
     
 				    <?php get_sidebar(); ?>
