@@ -30,6 +30,8 @@
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
 
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -44,9 +46,12 @@
 								 
 						<div id="inner-header" class="row">
 							<div class="large-12 medium-12 columns">
-								<h1>
+								<h1 class="title">
 									<a href="<?php echo home_url(); ?>" rel="nofollow">
-										<?php bloginfo('name'); ?>
+										<!-- us site title -->
+										<!--<?php bloginfo('name'); ?>-->
+
+										< sh >
 									</a>
 									<small>
 										<?php  bloginfo('description'); ?>

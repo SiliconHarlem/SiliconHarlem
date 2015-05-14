@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Expers Page 
+Template Name: Experts Page 
 */
 ?>
 

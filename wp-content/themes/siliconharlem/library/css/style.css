@@ -62,9 +62,181 @@ style a page via class
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-body {font-family: 'Raleway', Helvetica, sans-serif;}
-body.page-id-26 .tab-bar {display: none;}
+body, h1, h2, h3, h4 {font-family: 'Raleway', Helvetica, sans-serif;}
+body.page-id-12 .tab-bar,
+body.page-id-12 .contain-to-grid,
+body.page-id-28 .tab-bar,
+body.page-id-28 .contain-to-grid,
+body.home h1.page-title {display: none;}
 
+h1.title  {text-align: center; padding: 0 0 40px 0;}
+h1.title a {color:#000; font-size: 110px; font-weight: 300;}
+h1.title small {color:#000; text-transform: uppercase; font-size: 10px;display: block; letter-spacing: .07em;}
+
+
+.property-box img.teaser-left-thumb  {width: 450px;}
+
+h1.referral {display: none !important;}
+
+
+form#swpm-registration-form table {width: 100%;}
+
+
+#countdown1 {
+  background-color: #55acee;
+  margin: 0 -30px;
+  padding: 30px 20px;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+#wcc_wrapper1,
+.column, .columns,
+.ClassyCountdown-wrapper,
+.ClassyCountdown-days,
+.ClassyCountdown-value {
+    font-family: 'Raleway', Helvetica, sans-serif !important;
+
+}
+
+.row {
+    max-width: 100%;
+}
+
+
+#wcc_wrapper1,
+.column, .columns {padding: 0 !important;}
+
+
+.inner-padding {padding: 0 25px;}
+
+
+ul#menu-main-menu,
+ul#menu-member-menu {   
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;}
+
+ul#menu-main-menu li,
+ul#menu-member-menu li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+
+ul#menu-main-menu li a,
+ul#menu-member-menu li a {
+    display:block;
+   margin:0 0 0 1px;
+   padding:14px 30px;
+   text-decoration:none;
+   line-height:1.3em;
+}
+.contain-to-grid {height: 45px;}
+
+
+.wpme_image img {
+  width: 100%;
+}
+
+.grid#sc_our_team .sc_team_member .sc_team_member_name {font-size: 15px;}
+.sc_team_member_jobtitle {font-size: 10px;}
+
+.su-button {margin: 25px 25px 25px 0;}
+
+.wmle_container .wmle_item,
+.wmle_container .wmle_item .wmle_post_title {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+#inner-footer .sub-nav dt, .sub-nav dd, .sub-nav li {list-style: none; background-image: none;color:#2D89EF; margin-left: 0;}
+#inner-footer .sub-nav li {float: right;}
+#inner-footer .sub-nav li a {color:#2D89EF; padding-top:0;}
+
+#inner-footer li.current_page_item a {color: #fff;}
+
+.copyright {
+  font-size: 11px;
+  width: 40%;
+  float: left;
+}
+
+#inner-footer nav {float: right;}
+
+
+
+.property-box img.teaser-left-thumb,
+.epl-featured-image img {width: 100%;}
+
+
+.aptf-template-3 .aptf-single-tweet-wrapper {border-radius: 0; border:none; margin-top:25px;}
+
+
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  background-color: #2D89EF;
+    color: #FFFFFF;
+  padding: 6px 16px;
+  font-size: 13px;
+  line-height: 20px;
+  border:none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {background-color: #2D89EF;}
+
+@media (min-width: 1050px)  {
+
+  .grid#sc_our_team .sc_team_member_inner {
+  height: 500px;
+}
+}
+
+
+
+
+@media (max-width: 1050px) and (min-width: 700px) {
+
+  .grid#sc_our_team .sc_team_member_inner {
+  height: 300px;
+}
+}
+
+
+@media (max-width: 700px) and (min-width: 500px) {
+.grid#sc_our_team .sc_team_member {
+  width: 100% ;
+  }
+
+  .grid#sc_our_team .sc_team_member_inner {
+  height: 350px;
+}
+}
+
+
+
+
+@media (max-width: 500px) and (min-width: 200px) {
+.grid#sc_our_team .sc_team_member {
+  width: 100% ;
+  }
+
+  .grid#sc_our_team .sc_team_member_inner {
+  height: 300px;
+}
+}
 
 
 
@@ -279,7 +451,7 @@ COMMENT STYLES
     padding-bottom: 0.9375rem;
     padding-left: 1.75rem;
     font-size: 0.8125rem;
-    background-color: #008CBA;
+    background-color: #2D89EF;
     border-color: #007095;
     color: #FFFFFF;
     transition: background-color 300ms ease-out;
